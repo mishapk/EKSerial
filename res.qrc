@@ -1,0 +1,228 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/png/24x24/3d bar chart.png</file>
+        <file>images/png/24x24/Abort.png</file>
+        <file>images/png/24x24/About.png</file>
+        <file>images/png/24x24/Accounting.png</file>
+        <file>images/png/24x24/Add.png</file>
+        <file>images/png/24x24/Address book.png</file>
+        <file>images/png/24x24/Alarm clock.png</file>
+        <file>images/png/24x24/Alarm.png</file>
+        <file>images/png/24x24/Alert.png</file>
+        <file>images/png/24x24/Alien.png</file>
+        <file>images/png/24x24/Anchor.png</file>
+        <file>images/png/24x24/Application.png</file>
+        <file>images/png/24x24/Apply.png</file>
+        <file>images/png/24x24/Back.png</file>
+        <file>images/png/24x24/Bad mark.png</file>
+        <file>images/png/24x24/Bee.png</file>
+        <file>images/png/24x24/Black bookmark.png</file>
+        <file>images/png/24x24/Black pin.png</file>
+        <file>images/png/24x24/Black tag.png</file>
+        <file>images/png/24x24/Blog.png</file>
+        <file>images/png/24x24/Blue bookmark.png</file>
+        <file>images/png/24x24/Blue key.png</file>
+        <file>images/png/24x24/Blue pin.png</file>
+        <file>images/png/24x24/Blue tag.png</file>
+        <file>images/png/24x24/Bomb.png</file>
+        <file>images/png/24x24/Bookmark.png</file>
+        <file>images/png/24x24/Boss.png</file>
+        <file>images/png/24x24/Bottom.png</file>
+        <file>images/png/24x24/Briefcase.png</file>
+        <file>images/png/24x24/Brush.png</file>
+        <file>images/png/24x24/Bubble.png</file>
+        <file>images/png/24x24/Buy.png</file>
+        <file>images/png/24x24/Calculator.png</file>
+        <file>images/png/24x24/Calendar.png</file>
+        <file>images/png/24x24/Car key.png</file>
+        <file>images/png/24x24/CD.png</file>
+        <file>images/png/24x24/Clipboard.png</file>
+        <file>images/png/24x24/Clock.png</file>
+        <file>images/png/24x24/Close.png</file>
+        <file>images/png/24x24/Coin.png</file>
+        <file>images/png/24x24/Comment.png</file>
+        <file>images/png/24x24/Company.png</file>
+        <file>images/png/24x24/Compass.png</file>
+        <file>images/png/24x24/Component.png</file>
+        <file>images/png/24x24/Computer.png</file>
+        <file>images/png/24x24/Copy.png</file>
+        <file>images/png/24x24/Create.png</file>
+        <file>images/png/24x24/Cut.png</file>
+        <file>images/png/24x24/Danger.png</file>
+        <file>images/png/24x24/Database.png</file>
+        <file>images/png/24x24/Delete.png</file>
+        <file>images/png/24x24/Delivery.png</file>
+        <file>images/png/24x24/Diagram.png</file>
+        <file>images/png/24x24/Dial.png</file>
+        <file>images/png/24x24/Disaster.png</file>
+        <file>images/png/24x24/Display.png</file>
+        <file>images/png/24x24/Dollar.png</file>
+        <file>images/png/24x24/Door.png</file>
+        <file>images/png/24x24/Down.png</file>
+        <file>images/png/24x24/Download.png</file>
+        <file>images/png/24x24/Downloads folder.png</file>
+        <file>images/png/24x24/Earth.png</file>
+        <file>images/png/24x24/Eject.png</file>
+        <file>images/png/24x24/E-mail.png</file>
+        <file>images/png/24x24/Equipment.png</file>
+        <file>images/png/24x24/Erase.png</file>
+        <file>images/png/24x24/Error.png</file>
+        <file>images/png/24x24/Euro.png</file>
+        <file>images/png/24x24/Exit.png</file>
+        <file>images/png/24x24/Expand.png</file>
+        <file>images/png/24x24/Eye.png</file>
+        <file>images/png/24x24/Fall.png</file>
+        <file>images/png/24x24/Fast-forward.png</file>
+        <file>images/png/24x24/Favourites.png</file>
+        <file>images/png/24x24/Female symbol.png</file>
+        <file>images/png/24x24/Female.png</file>
+        <file>images/png/24x24/Film.png</file>
+        <file>images/png/24x24/Filter.png</file>
+        <file>images/png/24x24/Find.png</file>
+        <file>images/png/24x24/First record.png</file>
+        <file>images/png/24x24/First.png</file>
+        <file>images/png/24x24/Flag.png</file>
+        <file>images/png/24x24/Flash drive.png</file>
+        <file>images/png/24x24/Folder.png</file>
+        <file>images/png/24x24/Forbidden.png</file>
+        <file>images/png/24x24/Forward.png</file>
+        <file>images/png/24x24/Free bsd.png</file>
+        <file>images/png/24x24/Gift.png</file>
+        <file>images/png/24x24/Globe.png</file>
+        <file>images/png/24x24/Go back.png</file>
+        <file>images/png/24x24/Go forward.png</file>
+        <file>images/png/24x24/Go.png</file>
+        <file>images/png/24x24/Good mark.png</file>
+        <file>images/png/24x24/Green bookmark.png</file>
+        <file>images/png/24x24/Green pin.png</file>
+        <file>images/png/24x24/Green tag.png</file>
+        <file>images/png/24x24/Hard disk.png</file>
+        <file>images/png/24x24/Heart.png</file>
+        <file>images/png/24x24/Help book 3d.png</file>
+        <file>images/png/24x24/Help book.png</file>
+        <file>images/png/24x24/Help.png</file>
+        <file>images/png/24x24/Hint.png</file>
+        <file>images/png/24x24/History.png</file>
+        <file>images/png/24x24/Home.png</file>
+        <file>images/png/24x24/Hourglass.png</file>
+        <file>images/png/24x24/How-to.png</file>
+        <file>images/png/24x24/Hungup.png</file>
+        <file>images/png/24x24/Info.png</file>
+        <file>images/png/24x24/In-yang.png</file>
+        <file>images/png/24x24/Iphone.png</file>
+        <file>images/png/24x24/Key.png</file>
+        <file>images/png/24x24/Last recor.png</file>
+        <file>images/png/24x24/Last.png</file>
+        <file>images/png/24x24/Left-right.png</file>
+        <file>images/png/24x24/Letter.png</file>
+        <file>images/png/24x24/Lightning.png</file>
+        <file>images/png/24x24/Liner.png</file>
+        <file>images/png/24x24/Linux.png</file>
+        <file>images/png/24x24/List.png</file>
+        <file>images/png/24x24/Load.png</file>
+        <file>images/png/24x24/Lock.png</file>
+        <file>images/png/24x24/Low rating.png</file>
+        <file>images/png/24x24/Magic wand.png</file>
+        <file>images/png/24x24/Mail.png</file>
+        <file>images/png/24x24/Male symbol.png</file>
+        <file>images/png/24x24/Male.png</file>
+        <file>images/png/24x24/Medium rating.png</file>
+        <file>images/png/24x24/Message.png</file>
+        <file>images/png/24x24/Mobile-phone.png</file>
+        <file>images/png/24x24/Modify.png</file>
+        <file>images/png/24x24/Move.png</file>
+        <file>images/png/24x24/Movie.png</file>
+        <file>images/png/24x24/Music.png</file>
+        <file>images/png/24x24/Mute.png</file>
+        <file>images/png/24x24/Network connection.png</file>
+        <file>images/png/24x24/New document.png</file>
+        <file>images/png/24x24/New.png</file>
+        <file>images/png/24x24/Next track.png</file>
+        <file>images/png/24x24/Next.png</file>
+        <file>images/png/24x24/No.png</file>
+        <file>images/png/24x24/No-entry.png</file>
+        <file>images/png/24x24/Notes.png</file>
+        <file>images/png/24x24/OK.png</file>
+        <file>images/png/24x24/Paste.png</file>
+        <file>images/png/24x24/Pause.png</file>
+        <file>images/png/24x24/People.png</file>
+        <file>images/png/24x24/Percent.png</file>
+        <file>images/png/24x24/Person.png</file>
+        <file>images/png/24x24/Phone number.png</file>
+        <file>images/png/24x24/Phone.png</file>
+        <file>images/png/24x24/Picture.png</file>
+        <file>images/png/24x24/Pie chart.png</file>
+        <file>images/png/24x24/Pinion.png</file>
+        <file>images/png/24x24/Play.png</file>
+        <file>images/png/24x24/Playback.png</file>
+        <file>images/png/24x24/Play-music.png</file>
+        <file>images/png/24x24/Previous record.png</file>
+        <file>images/png/24x24/Previous.png</file>
+        <file>images/png/24x24/Print.png</file>
+        <file>images/png/24x24/Problem.png</file>
+        <file>images/png/24x24/Question.png</file>
+        <file>images/png/24x24/Radiation.png</file>
+        <file>images/png/24x24/Raise.png</file>
+        <file>images/png/24x24/Record.png</file>
+        <file>images/png/24x24/Red bookmark.png</file>
+        <file>images/png/24x24/Red mark.png</file>
+        <file>images/png/24x24/Red pin.png</file>
+        <file>images/png/24x24/Red star.png</file>
+        <file>images/png/24x24/Red tag.png</file>
+        <file>images/png/24x24/Redo.png</file>
+        <file>images/png/24x24/Refresh.png</file>
+        <file>images/png/24x24/Remove.png</file>
+        <file>images/png/24x24/Repair.png</file>
+        <file>images/png/24x24/Report.png</file>
+        <file>images/png/24x24/Retort.png</file>
+        <file>images/png/24x24/Rewind.png</file>
+        <file>images/png/24x24/Sad.png</file>
+        <file>images/png/24x24/Save.png</file>
+        <file>images/png/24x24/Schedule.png</file>
+        <file>images/png/24x24/Script.png</file>
+        <file>images/png/24x24/Search.png</file>
+        <file>images/png/24x24/Shield.png</file>
+        <file>images/png/24x24/Shopping cart.png</file>
+        <file>images/png/24x24/Silence.png</file>
+        <file>images/png/24x24/Smile.png</file>
+        <file>images/png/24x24/Sound.png</file>
+        <file>images/png/24x24/Stock graph.png</file>
+        <file>images/png/24x24/Stop sign.png</file>
+        <file>images/png/24x24/Stop.png</file>
+        <file>images/png/24x24/Stopwatch.png</file>
+        <file>images/png/24x24/Sum.png</file>
+        <file>images/png/24x24/Sync.png</file>
+        <file>images/png/24x24/Table.png</file>
+        <file>images/png/24x24/Target.png</file>
+        <file>images/png/24x24/Taxi.png</file>
+        <file>images/png/24x24/Terminate.png</file>
+        <file>images/png/24x24/Text preview.png</file>
+        <file>images/png/24x24/Text.png</file>
+        <file>images/png/24x24/Thumbs down.png</file>
+        <file>images/png/24x24/Thumbs up.png</file>
+        <file>images/png/24x24/Toolbox.png</file>
+        <file>images/png/24x24/Top.png</file>
+        <file>images/png/24x24/Trackback.png</file>
+        <file>images/png/24x24/Trash.png</file>
+        <file>images/png/24x24/Tune.png</file>
+        <file>images/png/24x24/Turn off.png</file>
+        <file>images/png/24x24/Twitter.png</file>
+        <file>images/png/24x24/Undo.png</file>
+        <file>images/png/24x24/Unlock.png</file>
+        <file>images/png/24x24/Up.png</file>
+        <file>images/png/24x24/Update.png</file>
+        <file>images/png/24x24/Up-down.png</file>
+        <file>images/png/24x24/Upload.png</file>
+        <file>images/png/24x24/User group.png</file>
+        <file>images/png/24x24/View.png</file>
+        <file>images/png/24x24/Volume.png</file>
+        <file>images/png/24x24/Wallet.png</file>
+        <file>images/png/24x24/Warning.png</file>
+        <file>images/png/24x24/Wrench.png</file>
+        <file>images/png/24x24/Yellow bookmark.png</file>
+        <file>images/png/24x24/Yellow pin.png</file>
+        <file>images/png/24x24/Yellow tag.png</file>
+        <file>images/png/24x24/Yes.png</file>
+        <file>images/png/24x24/Zoom.png</file>
+    </qresource>
+</RCC>
