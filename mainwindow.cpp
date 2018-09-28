@@ -27,6 +27,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ChanelModel->setTable("chanels");
     ChanelModel->setEditStrategy(QSqlTableModel::OnManualSubmit);
 
+
 }
 
 

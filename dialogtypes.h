@@ -32,10 +32,11 @@ private slots:
 
     void on_pushButtonADDTypes_clicked();
 
-
+    void change_tabletypes();
 
 private:
     Ui::DialogTypes *ui;
+
 };
 
 #endif // DIALOGTYPES_H

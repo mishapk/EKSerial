@@ -17,7 +17,7 @@ static QSqlError initDb()
     db.setDatabaseName("serials");
     db.setUserName("mishapk");
     db.setHostName("in.iteng.com.ua");
-    db.setPort(3306);
+    db.setPort(3306);//1104//6060php//2220ssh
     db.setPassword("1111");
     if (!db.open()) {
     return db.lastError();

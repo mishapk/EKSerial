@@ -20,7 +20,8 @@ DialogTypes::DialogTypes(QSqlTableModel *TypeModel, QSqlTableModel *ChanelModel,
     modelChanels->setFilter("TYPE_ID = 1") ;
    // ui->tableViewTypes->hideColumn(0);
     //ui->tableViewTypes->verticalHeader()->setVisible(false);
-
+  //master-detail
+    connect(ui->tableViewTypes->selectionModel(), SIGNAL(selectionChanged(QItemSelection,QItemSelection)), this, SLOT(change_tabletypes()));
 
 }
 
@@ -47,8 +48,8 @@ void DialogTypes::on_pushButtonAddChanels_clicked()
 void DialogTypes::on_tableViewTypes_clicked(const QModelIndex &index)
 {
     //Master-Dertail
-    QString id= modelTypes->record(index.row()).value(0).toString();
-    modelChanels->setFilter("TYPE_ID = '" + id + '\'') ;
+ //   QString id= modelTypes->record(index.row()).value(0).toString();
+  //  modelChanels->setFilter("TYPE_ID = '" + id + '\'') ;
 
 }
 
@@ -68,6 +69,15 @@ void DialogTypes::on_pushButtonADDTypes_clicked()
 {
     int row=modelTypes->rowCount();
     modelTypes->insertRow(row);
+
+}
+
+void DialogTypes::change_tabletypes()
+{
+    //Master-Dertail
+    int row=ui->tableViewTypes->selectionModel()->currentIndex().row();   //Получаем номер выбранной строки таблицы типов
+    QString id=modelTypes->record(row).value(0).toString();
+    modelChanels->setFilter("TYPE_ID = '" + id + '\'') ;
 
 }
 
