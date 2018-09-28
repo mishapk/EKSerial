@@ -18,15 +18,20 @@ public:
     QSqlTableModel *modelTypes;
     QSqlTableModel *modelChanels;
 private slots:
-    void on_pushButton_2_clicked();
 
-    void on_pushButton_8_clicked();
 
     void on_pushButtonAddChanels_clicked();
 
-    void on_pushButton_7_clicked();
 
     void on_tableViewTypes_clicked(const QModelIndex &index);
+
+
+    void on_pushButtonSubmitChanels_clicked();
+
+    void on_pushButtonSubmitTypes_clicked();
+
+    void on_pushButtonADDTypes_clicked();
+
 
 
 private:

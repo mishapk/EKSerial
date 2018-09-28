@@ -65,7 +65,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_8">
+           <widget class="QPushButton" name="pushButtonSubmitTypes">
             <property name="text">
              <string>Применить</string>
             </property>
@@ -125,7 +125,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_7">
+           <widget class="QPushButton" name="pushButtonSubmitChanels">
             <property name="text">
              <string>Применить</string>
             </property>

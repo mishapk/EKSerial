@@ -16,6 +16,8 @@ DialogTypes::DialogTypes(QSqlTableModel *TypeModel, QSqlTableModel *ChanelModel,
     modelTypes->submitAll();
     modelChanels->submitAll();
     ui->tableViewTypes->resizeColumnsToContents();
+    ui->tableViewTypes->selectRow(0);
+    modelChanels->setFilter("TYPE_ID = 1") ;
    // ui->tableViewTypes->hideColumn(0);
     //ui->tableViewTypes->verticalHeader()->setVisible(false);
 
@@ -27,32 +29,45 @@ DialogTypes::~DialogTypes()
     delete ui;
 }
 
-void DialogTypes::on_pushButton_2_clicked()
-{
-   modelTypes->insertRow(modelTypes->rowCount());
-}
 
-void DialogTypes::on_pushButton_8_clicked()
-{
-    modelTypes->submitAll();
-}
+
+
 
 void DialogTypes::on_pushButtonAddChanels_clicked()
 {
-    modelChanels->insertRow(modelChanels->rowCount());
+
+    int row=ui->tableViewTypes->selectionModel()->currentIndex().row();   //Получаем номер выбранной строки таблицы типов
+    int id=modelTypes->record(row).value(0).toInt();                      //Получаем значение ID таблицы типов
+    int nrow=modelChanels->rowCount();
+    modelChanels->insertRow(nrow);                                        //Вставляем новую строку в конец таблицы
+    modelChanels->setData(modelTypes->index(nrow, 1), id);               //Подсталяем ID типа в соответсвующие поле
 }
 
-void DialogTypes::on_pushButton_7_clicked()
-{
-  modelChanels->submitAll();
-}
 
 void DialogTypes::on_tableViewTypes_clicked(const QModelIndex &index)
 {
-    QModelIndex index2 = modelTypes->index(index.row(), 0);
-    qDebug()<<index2.data().toString();
-    modelChanels->setFilter("ID = '" + index2.data().toString() + '\'') ;
-    qDebug()<<ui->tableViewTypes->currentIndex().model()->index()
+    //Master-Dertail
+    QString id= modelTypes->record(index.row()).value(0).toString();
+    modelChanels->setFilter("TYPE_ID = '" + id + '\'') ;
+
 }
 
+
+
+void DialogTypes::on_pushButtonSubmitChanels_clicked()
+{
+   modelChanels->submitAll();
+}
+
+void DialogTypes::on_pushButtonSubmitTypes_clicked()
+{
+  modelTypes->submitAll();
+}
+
+void DialogTypes::on_pushButtonADDTypes_clicked()
+{
+    int row=modelTypes->rowCount();
+    modelTypes->insertRow(row);
+
+}
 
