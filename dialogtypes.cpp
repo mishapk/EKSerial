@@ -16,10 +16,13 @@ DialogTypes::DialogTypes(QSqlTableModel *TypeModel, QSqlTableModel *ChanelModel,
     modelTypes->submitAll();
     modelChanels->submitAll();
     ui->tableViewTypes->resizeColumnsToContents();
+    ui->tableViewChanels->resizeColumnsToContents();
     ui->tableViewTypes->selectRow(0);
     modelChanels->setFilter("TYPE_ID = 1") ;
    // ui->tableViewTypes->hideColumn(0);
     //ui->tableViewTypes->verticalHeader()->setVisible(false);
+    ui->tableViewChanels->hideColumn(0);
+    //ui->tableViewChanels->hideColumn(1);
   //master-detail
     connect(ui->tableViewTypes->selectionModel(), SIGNAL(selectionChanged(QItemSelection,QItemSelection)), this, SLOT(change_tabletypes()));
 
@@ -63,6 +66,7 @@ void DialogTypes::on_pushButtonSubmitChanels_clicked()
 void DialogTypes::on_pushButtonSubmitTypes_clicked()
 {
   modelTypes->submitAll();
+
 }
 
 void DialogTypes::on_pushButtonADDTypes_clicked()

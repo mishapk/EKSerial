@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>475</width>
-    <height>312</height>
+    <width>868</width>
+    <height>433</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,9 +18,89 @@
     <normaloff>:/images/images/png/24x24/Table.png</normaloff>:/images/images/png/24x24/Table.png</iconset>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <layout class="QHBoxLayout" name="horizontalLayout">
+   <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QTableView" name="tableView"/>
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QTableView" name="tableView">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="currentIndex">
+        <number>1</number>
+       </property>
+       <widget class="QWidget" name="tab">
+        <attribute name="title">
+         <string>Информация</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="tab_2">
+        <attribute name="title">
+         <string>Пломбы</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="0" column="0">
+            <widget class="QToolButton" name="toolButton">
+             <property name="text">
+              <string>...</string>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/images/images/png/24x24/Add.png</normaloff>:/images/images/png/24x24/Add.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0" colspan="4">
+            <widget class="QTableView" name="tableViewStamp"/>
+           </item>
+           <item row="0" column="1">
+            <widget class="QToolButton" name="toolButton_2">
+             <property name="text">
+              <string>...</string>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/images/images/png/24x24/Delete.png</normaloff>:/images/images/png/24x24/Delete.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QToolButton" name="toolButton_3">
+             <property name="text">
+              <string>...</string>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/images/images/png/24x24/Apply.png</normaloff>:/images/images/png/24x24/Apply.png</iconset>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="tab_3">
+        <attribute name="title">
+         <string>Ремонты</string>
+        </attribute>
+       </widget>
+      </widget>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -29,7 +109,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>475</width>
+     <width>868</width>
      <height>21</height>
     </rect>
    </property>
@@ -42,18 +122,20 @@
     <bool>false</bool>
    </attribute>
    <addaction name="action"/>
-   <addaction name="action_2"/>
    <addaction name="action_3"/>
+   <addaction name="action_8"/>
    <addaction name="separator"/>
    <addaction name="action_4"/>
+   <addaction name="action_6"/>
+   <addaction name="action_7"/>
    <addaction name="separator"/>
-   <addaction name="action_5"/>
+   <addaction name="action_9"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="action">
    <property name="icon">
     <iconset resource="res.qrc">
-     <normaloff>:/images/images/png/24x24/Add.png</normaloff>:/images/images/png/24x24/Add.png</iconset>
+     <normaloff>:/images/images/png/24x24/Create.png</normaloff>:/images/images/png/24x24/Create.png</iconset>
    </property>
    <property name="text">
     <string>Добавить</string>
@@ -63,6 +145,9 @@
    </property>
   </action>
   <action name="action_2">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="icon">
     <iconset resource="res.qrc">
      <normaloff>:/images/images/png/24x24/Modify.png</normaloff>:/images/images/png/24x24/Modify.png</iconset>
@@ -105,6 +190,45 @@
    </property>
    <property name="text">
     <string>Печать</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/images/images/png/24x24/Address book.png</normaloff>:/images/images/png/24x24/Address book.png</iconset>
+   </property>
+   <property name="text">
+    <string>Адресная книга</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/images/images/png/24x24/Boss.png</normaloff>:/images/images/png/24x24/Boss.png</iconset>
+   </property>
+   <property name="text">
+    <string>Должосные лица</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/images/images/png/24x24/Apply.png</normaloff>:/images/images/png/24x24/Apply.png</iconset>
+   </property>
+   <property name="text">
+    <string>Применить</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/images/images/png/24x24/Info.png</normaloff>:/images/images/png/24x24/Info.png</iconset>
+   </property>
+   <property name="text">
+    <string>Информация</string>
    </property>
   </action>
  </widget>
